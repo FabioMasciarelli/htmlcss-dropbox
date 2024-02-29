@@ -8,6 +8,21 @@ img{
     max-width: 100%;
 }
 
+/* utilities */
+.large{
+    width: 80%;
+    margin: auto;
+}
+
+.normal{
+    width: 70%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -34,4 +49,24 @@ header{
     background-color: red;
     /* debug */
     height: 50px;
+}
+
+.hero{
+    /* debug */
+    height: 300px;
+    background-color: green;
+}
+
+.search-plane{
+    /* debug */
+    height: 50px;
+    background-color: grey;
+}
+
+.plane{
+    width: calc(100% / 3);
+    /* debug */
+    background-color: green;
+    height: 300px;
+    border: 1px solid black;
 }
