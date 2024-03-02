@@ -55,6 +55,10 @@ section{
     width: 40%;
 }
 
+.m-top{
+    margin-top: 40px;
+}
+
 header {
     font-size: 1.2rem;
     height: 100px;
@@ -69,6 +73,7 @@ header {
 }
 
 .logo {
+    padding: 0 10px;
     width: 10%;
     line-height: 100px;
 }
@@ -101,11 +106,7 @@ header {
     background-color: #0161ff;
 }
 
-.main{
-    display: block;
-}
-
-.hero {
+.jumbo{
     font-size: 1.2rem;
     background-color: lightblue;
 }
@@ -145,10 +146,10 @@ header {
 }
 
 .title {
+    padding: 20px;
     font-size: 2rem;
     text-align: center;
     width: 100%;
-    height: 50px;
 }
 
 .square {
