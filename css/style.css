@@ -34,6 +34,11 @@ ul{
     display: flex;
 }
 
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
 .gap{
     gap: 20px;
 }
@@ -42,6 +47,12 @@ ul{
     display: flex;
     flex-direction: column;
 }
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .button-blue{
     font-size: 1.2rem;
     border: 0;
@@ -58,17 +69,16 @@ ul{
     padding: 10px;
 }
 
-.wrap {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .sixty {
     width: 60%;
 }
 
 .fourty {
     width: 40%;
+}
+
+.ten{
+    width: 10%;
 }
 
 .m5{
@@ -93,6 +103,10 @@ ul{
 
 .padding10{
     padding: 10px;
+}
+
+.padding40{
+    padding: 40px 0;
 }
 
 .size1{
@@ -251,13 +265,6 @@ header {
     padding: 50px;
 }
 
-.questions {
-    margin: auto;
-
-    background-color: aqua;
-    height: 200px;
-}
-
 footer {
     background-color: black;
     width: 100%;
@@ -265,6 +272,4 @@ footer {
 
 .col-foot {
     width: calc(100% / 5);
-
-    border: 1px solid white;
 }
