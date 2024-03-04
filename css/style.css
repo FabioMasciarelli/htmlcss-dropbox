@@ -35,7 +35,7 @@ ul{
 }
 
 .gap{
-    gap: 15px;
+    gap: 20px;
 }
 
 .flex-col{
@@ -199,7 +199,7 @@ header {
 }
 
 .title {
-    padding: 20px;
+    padding-top: 20px;
     width: 100%;
 }
 
