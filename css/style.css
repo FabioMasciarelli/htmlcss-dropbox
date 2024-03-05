@@ -1,16 +1,18 @@
-* {
+/* reset */
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
+img{
     max-width: 100%;
     object-fit: contain;
 }
 
-a {
+a{
     text-decoration: none;
     color: black;
 }
@@ -20,17 +22,17 @@ ul{
 }
 
 /* utilities */
-.large {
+.large{
     width: 80%;
     margin: auto;
 }
 
-.normal {
+.normal{
     width: 70%;
     margin: auto;
 }
 
-.flex {
+.flex{
     display: flex;
 }
 
@@ -48,7 +50,7 @@ ul{
     flex-direction: column;
 }
 
-.wrap {
+.wrap{
     display: flex;
     flex-wrap: wrap;
 }
@@ -69,11 +71,11 @@ ul{
     padding: 10px;
 }
 
-.sixty {
+.sixty{
     width: 60%;
 }
 
-.fourty {
+.fourty{
     width: 40%;
 }
 
@@ -137,7 +139,9 @@ input{
     display: block;
 }
 
-header {
+/* body */
+
+header{
     font-size: 1.2rem;
     height: 100px;
 }
@@ -150,28 +154,28 @@ header {
     width: 100%;
 }
 
-.logo {
+.logo{
     padding: 0 10px;
     width: 10%;
     line-height: 100px;
 }
 
-.menu {
+.menu{
     width: 70%;
     line-height: 100px;
 }
 
-.left {
+.left{
     width: 50%;
     text-align: start;
 }
 
-.right {
+.right{
     width: 50%;
     text-align: end;
 }
 
-.login {
+.login{
     width: 20%;
     line-height: 100px;
     text-align: center;
@@ -182,7 +186,7 @@ header {
     background-color: lightblue;
 }
 
-.card {
+.card{
     width: calc(100% / 3);
     border: 1px solid grey;
 }
@@ -197,7 +201,7 @@ header {
     min-height: 400px;
 }
 
-.office {
+.office{
     width: 100%;
     border: 1px solid grey;
 }
@@ -208,16 +212,16 @@ header {
     background-color: white;
 }
 
-.column {
+.column{
     width: calc(100% / 3);
 }
 
-.title {
+.title{
     padding-top: 20px;
     width: 100%;
 }
 
-.square {
+.square{
     width: calc(100% / 3);
 }
 
@@ -259,15 +263,24 @@ header {
     background-color: #ffd830;
 }
 
-.dp-business {
+.dp-business{
     background-color: #b4d0e7;
     padding: 50px 0;
 }
 
-footer {
+.hide{
+    display: none;
+    width: 100%;
+}
+
+.open:hover .hide{
+    display: block;
+}
+
+footer{
     background-color: black;
 }
 
-.col-foot {
+.col-foot{
     width: calc(100% / 5);
 }
